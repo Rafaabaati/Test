@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-05T14:36:20 WEST" name="Default suite" finished-at="2021-10-05T14:37:02 WEST" duration-ms="41931">
+  <suite started-at="2021-10-06T15:20:34 WEST" name="Suite" finished-at="2021-10-06T15:23:09 WEST" duration-ms="155401">
     <groups>
     </groups>
-    <test started-at="2021-10-05T14:36:20 WEST" name="Default test" finished-at="2021-10-05T14:37:02 WEST" duration-ms="41931">
-      <class name="Acestpage.youtuberech">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Acestpage.youtuberech@16610890]" started-at="2021-10-05T14:36:20 WEST" name="setup" finished-at="2021-10-05T14:36:22 WEST" duration-ms="1443" status="PASS">
+    <test started-at="2021-10-06T15:20:34 WEST" name="Test" finished-at="2021-10-06T15:23:09 WEST" duration-ms="155401">
+      <class name="Acestpage.LoginmailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Acestpage.LoginmailTest@1af2d44a]" started-at="2021-10-06T15:21:42 WEST" name="setup" finished-at="2021-10-06T15:21:43 WEST" duration-ms="1089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test2()[pri:0, instance:Acestpage.youtuberech@16610890]" started-at="2021-10-05T14:36:22 WEST" name="Test2" finished-at="2021-10-05T14:37:02 WEST" duration-ms="40124" status="FAIL">
+        <test-method signature="test()[pri:0, instance:Acestpage.LoginmailTest@1af2d44a]" started-at="2021-10-06T15:21:43 WEST" name="test" finished-at="2021-10-06T15:23:09 WEST" duration-ms="86200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="deco()[pri:0, instance:Acestpage.LoginmailTest@1af2d44a]" started-at="2021-10-06T15:23:09 WEST" name="deco" finished-at="2021-10-06T15:23:09 WEST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deco -->
+      </class> <!-- Acestpage.LoginmailTest -->
+      <class name="Acestpage.facebookLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Acestpage.facebookLogin@446293d]" started-at="2021-10-06T15:20:34 WEST" name="setup" finished-at="2021-10-06T15:20:36 WEST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:Acestpage.facebookLogin@446293d]" started-at="2021-10-06T15:20:36 WEST" name="test" finished-at="2021-10-06T15:21:07 WEST" duration-ms="30901" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstname']"}
   (Session info: chrome=94.0.4606.71)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RAFAA', ip: '192.168.3.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+System info: host: 'LAPTOP-RAFAA', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\mrbaati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 63d821da89e6dd3085fff2cf81d3e3eb
-*** Element info: {Using=xpath, value=//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\mrbaati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be94ac520074ef20366cf959b9a7558f
+*** Element info: {Using=xpath, value=//input[@name='firstname']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstname']"}
   (Session info: chrome=94.0.4606.71)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RAFAA', ip: '192.168.3.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+System info: host: 'LAPTOP-RAFAA', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\mrbaati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 63d821da89e6dd3085fff2cf81d3e3eb
-*** Element info: {Using=xpath, value=//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\mrbaati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be94ac520074ef20366cf959b9a7558f
+*** Element info: {Using=xpath, value=//input[@name='firstname']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -49,10 +63,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Acestpage.facebookLogin.test(facebookLogin.java:16)
-at Acestpage.youtuberech.Test2(youtuberech.java:11)
-at Acestpage.facebookLogin.test(facebookLogin.java:52)
-at Acestpage.youtuberech.Test2(youtuberech.java:11)
+at Acestpage.facebookLogin.test(facebookLogin.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,12 +97,34 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="deco()[pri:0, instance:Acestpage.youtuberech@16610890]" started-at="2021-10-05T14:37:02 WEST" name="deco" finished-at="2021-10-05T14:37:02 WEST" duration-ms="302" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="deco()[pri:0, instance:Acestpage.facebookLogin@446293d]" started-at="2021-10-06T15:21:07 WEST" name="deco" finished-at="2021-10-06T15:21:07 WEST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deco -->
+      </class> <!-- Acestpage.facebookLogin -->
+      <class name="Acestpage.youtuberech">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Acestpage.youtuberech@56cdfb3b]" started-at="2021-10-06T15:21:07 WEST" name="setup" finished-at="2021-10-06T15:21:08 WEST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Test45()[pri:0, instance:Acestpage.youtuberech@56cdfb3b]" started-at="2021-10-06T15:21:08 WEST" name="Test45" finished-at="2021-10-06T15:21:08 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test45 -->
+        <test-method signature="Test2()[pri:0, instance:Acestpage.youtuberech@56cdfb3b]" started-at="2021-10-06T15:21:08 WEST" name="Test2" finished-at="2021-10-06T15:21:42 WEST" duration-ms="33376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="deco()[pri:0, instance:Acestpage.youtuberech@56cdfb3b]" started-at="2021-10-06T15:21:42 WEST" name="deco" finished-at="2021-10-06T15:21:42 WEST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deco -->
+        <test-method is-config="true" signature="YoutebTest()[pri:0, instance:Acestpage.youtuberech@56cdfb3b]" started-at="2021-10-06T15:21:42 WEST" name="YoutebTest" finished-at="2021-10-06T15:21:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YoutebTest -->
       </class> <!-- Acestpage.youtuberech -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
