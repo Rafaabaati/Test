@@ -2,7 +2,7 @@ package Acestpage;
 
 public class testyaya {
 
-    void test(){
+     public void test(){
 
         System.out.println("Test");
 
