@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Acestpage.youtuberech">
+      <class name="Acestpage.facebookLogin">
         <methods>
+          <include name="test"/>
           <include name="setup"/>
-          <include name="Test2"/>
           <include name="deco"/>
         </methods>
-      </class> <!-- Acestpage.youtuberech -->
+      </class> <!-- Acestpage.facebookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
